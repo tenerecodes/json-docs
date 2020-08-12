@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+  nuxt-app:
+    build:
+      context: .
+    container_name: nuxt-app
+    ports:
+      - 3000:3000
+    restart: always
+    volumes:
+      - .:/usr/src/app
+    networks:
+      frontend:
+        aliases:
+          - app
+
+networks:
+  frontend:
+    name: frontend-network
