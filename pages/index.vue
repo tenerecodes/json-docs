@@ -1,41 +1,45 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        content
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+    <h1 class="title">
+      {{
+        Object.keys(coms[0])[0].charAt(0).toUpperCase() +
+        Object.keys(coms[0])[0].slice(1)
+      }}
+    </h1>
+    <div class="w-25% alert alert-primary" role="alert">
+      {{ coms[0].introduction }}
     </div>
+    <div class="container"></div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  async fetch() {
+    this.coms = await this.$content('coms').fetch()
+  },
+  // async asyncData({ $content }) {
+  //   const page = await $content('hello').fetch()
+
+  //   return {
+  //     page,
+  //   }
+  // },
+  data() {
+    return {
+      coms: [],
+      q: '',
+    }
+  },
+  layout: 'coffee',
+}
 </script>
 
 <style>
 .container {
   margin: 0 auto;
   min-height: 100vh;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -49,6 +53,8 @@ export default {}
   font-size: 100px;
   color: #35495e;
   letter-spacing: 1px;
+  text-align: center;
+  align-items: center;
 }
 
 .subtitle {

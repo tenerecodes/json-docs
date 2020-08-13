@@ -1,0 +1,108 @@
+{
+    "introduction": "Sous l'onglet commercial, un utilisateur peut ajouter, modifier ou supprimer des ressources liées aux aspects commerciaux y compris: les Prospects, les Clients, les Offres et les Services.",
+
+    "prospects": {
+        "view":[],
+        "create":[
+            "Pour créer un prospet ouvrez la page principal 'Tableau de Bord' puis cliquer sur 'Commercial' puis sur le sous-menu 'Prospets'.",
+            "Cliquez sur le menu 'Commercial' en haut, un sous-menu va apparaitre.",
+            "Cliquez sur 'Ajouter un Prospet'.",
+            "Saisissez les détails du prospet en question dans le formulaire 'Informations de Base'.",
+            "Les champs qui termine avec une étoile sont obligatoires.",
+            "Cliquer sur le bouton 'Sauvegarder'.",
+            "Si vous recevez un message comprenant le mot 'succés', félicitation vous avez créé votre premier 'prospet'."
+        ],
+        "update":[
+            "Pour modifier ou mettre à jour un prospect ouvrez la page principal 'Tableau de Bord' puis sur le sous-menu 'Prospects'.",
+            "Cliquez sur le menu 'Commercial' en haut, un sous menu va apparaitre.",
+            "Cliquez sur 'Liste des Prospects'.",
+            "Cliquez sur le nom du prospect, et procéder à la modification du formulaire 'Informations de Base'",
+            "Au bas de la page cliquez sur le bouton 'Mettre à jour'"
+        ],
+        "delete":[
+            "Pour supprimer un prospect ouvrez allez au 'Tableau de Bord' => 'Commercial' => 'Prospects'.",
+            "Cliquez sur le menu 'Liste des Prospects' dans le sous menu.",
+            "Cliquer sur l'icone supprimer dans la colonne 'Les Actions' et accepter le message d'alert."
+
+        ],
+        "import": [
+            "Pour importer des prospects, allez au 'Tableau de Bord' => 'Commercial' => 'Prospects'.",
+            "Cliquez sur le menu 'Liste des Prospects' dans le sous menu.",
+            "En haut de la page à droite cliquer sur le bouton 'Import'.",
+            "Cliquer sur 'Choose file' et utiliser l'explorateur pour choisir un fichier Excel .",
+            "Vous pouvez télécharger le fichier référence en cliquant sur 'Download Sample' ci-dessous."
+
+        ],
+        "export": [
+            "Pour exporter des prospects, allez au 'Tableau de Bord' => 'Commercial' => 'Prospects'.",
+            "Cliquez sur le menu 'Liste des Prospects' dans le sous menu.",
+            "En haut de la page à droite cliquer sur le bouton 'Import'.",
+            "Cliquer sur 'Choose file' et utiliser l'explorateur pour choisir un fichier Excel .",
+            "Vous pouvez télécharger le fichier référence en cliquant sur 'Download Sample' ci-dessous."
+        ],
+        "special" : {
+            "upgrade_prospect": [
+                "Pour revaloriser un prospect à un client allez au 'Tableau de Bord' => 'Commercial' => 'Prospects'",
+                "Caucher le prospect que vous comptez valoriser en un client",
+                "Cliquer sur le bouton 'Ajouter en tant que client'"
+            ]
+        }
+        },
+    "clients": {
+        "view": [],
+        "create": [
+            "Pour créer un client: 'Tableau de Bord' => 'Commercial' => 'Clients' => 'Ajouter un Client'.",
+            "Saisissez les détails du client en question dans le formulaire 'Informations de Base'. Vous pouvez ajouter d'autres information concernant ce client dans les onglet ('Autres informations','Douane', 'Informations prédéfinies').",
+            "Les champs qui termine avec une étoile sont obligatoires.",
+            "Cliquer sur le bouton 'Sauvegarder'.",
+            "Si vous recevez un message comprenant le mot 'succés', félicitation vous avez créé votre 'client'."
+        ],
+        "update": [
+            "Pour modifier ou mettre à jour un client ouvrez allez au 'Tableau de Bord' => 'Commercial' => 'Clients'.",
+            "Cliquez sur le menu 'Liste des Clients' dans le sous menu.",
+            "Cliquez sur le nom du client, et procéder à la saisie du formulaire.",
+            "Pour sauvegarder les modifications allez au dernier onglet 'Suivi Contact' et cliquez sur le bouton 'Mettre à jour'."
+        ],
+        "delete": [
+            "Pour supprimer un client ouvrez allez au 'Tableau de Bord' => 'Commercial' => 'Clients'.",
+            "Cliquez sur le menu 'Liste des Clients' dans le sous menu.",
+            "Cliquer sur l'icone supprimer dans la colonne 'Les Actions' et accepter le message d'alerte."
+        ],
+        "import": [],
+        "export": []
+        },
+    "offres": {
+        "view": [],
+        "create": [
+            "Pour créer un offre ouvrez la page principal 'Tableau de Bord' puis cliquer sur 'Commercial' puis sur le sous-menu 'Prospects'.",
+            "Cliquez sur le menu 'Commercial' en haut, un sous-menu va apparaitre.",
+            "Cliquez sur 'Ajouter un Offre'.",
+            "Saisissez les détails du offre en question dans le formulaire 'Informations de Base'.",
+            "Les champs qui termine avec une étoile sont obligatoires.",
+            "Cliquer sur le bouton 'Sauvegarder'.",
+            "Si vous recevez un message comprenant le mot 'succés', félicitation vous avez créé votre premier 'offre'."
+          ],
+        "update": [
+            "Pour modifier ou mettre à jour un offre ouvrez allez au 'Tableau de Bord' => 'Commercial' => 'Offres'.",
+            "Cliquez sur le menu 'Liste des Offres' dans le sous menu.",
+            "Sous la colonne 'Actions', cliquer sur l'cone 'Modification' et procéder à la saisie du formulaire.",
+            "Pour sauvegarder les modifications cliquez sur le bouton 'Mettre à jour'."
+        ],
+        "delete": [
+            "Pour supprimer un offre ouvrez allez au 'Tableau de Bord' => 'Commercial' => 'Offres'.",
+            "Cliquez sur le menu 'Liste des Offres' dans le sous menu.",
+            "Sous la colonne 'Actions', cliquer sur l'icone 'Suppression' et confirmer",
+            "Si vous n'arrivez pas à cliquer sur l'icone, c'est probablement parce que cet offre est deja validé et ne peut pqs etre supprimé"
+        ],
+        "import": [],
+        "export": []
+    },
+    "services": {
+        "view": [],
+        "create": [],
+        "update": [],
+        "delete": [],
+        "import": [],
+        "export": []
+    }
+}
